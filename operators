@@ -1,0 +1,204 @@
+JavaScript operator:
+Arithmetic :+,-,*,
+Multiplication- *
+Division- / (Q)
+Modular operator-% (R)
+Exponential -**(raised to the power)
+Example:
+ let a=10
+   let b=5
+   b++
+   a--
+   document.write(b ,"<br>")
+   document.write(a,"<br>")
+   document.write(a%b,"<br>")
+   document.write(a/b ,"<br>")
+   document.write(a*b ,"<br>")
+   document.write(a**b ,"<br>")
+Output: 
+6
+9
+3
+1.5
+54
+531441
+Assignment operator
++=
+-=
+/=
+%=
+Example:
+let a=10
+   let b=5
+   b-=30
+   document.write(b)
+   a+=30
+   document.write(a,"<br>")
+   document.write(b ,"<br>")
+   document.write(a,"<br>")
+   document.write(a%b,"<br>")
+   document.write(a/b ,"<br>")
+   document.write(a*b ,"<br>")
+   Document.write(a**b ,"<br>")
+Output:
+-2540
+-25
+40
+15
+-1.6
+-1000
+8.881784197001253e-41
+Logical operator:
+And - &&
+(T and T -T)
+Or - ||
+(T and F-F)
+Not- !
+Example:
+let a=10
+     let b=5
+     document.write(a<b && b<11 ,"<br>")
+     document.write(a<b || b<11 ,"<br>")
+        document.write(!(true))
+Output:
+false
+true
+false
+
+Relational (comparison) values  operator:
+<  , >  ,== , === , >= , <= , != , !===
+==  -equality
+Conditional operator: ternary operator(?)
+Condition ? e1: e2
+ let t=40
+    let r=(t>40) ? "Ac-off":"Ac-on"
+    document.write(r)
+Output:
+Ac-on
+
+let a=105
+     let b=105
+     document.write(a==b , "<br>")
+     document.write(a<b && b<11 ,"<br>")
+     document.write(a<b || b<11 ,"<br>")
+        document.write(!(true))
+Output:
+true
+false
+false
+false
+let a=105
+     let b=105
+     document.write(a!=b , "<br>")
+     document.write(a<b && b<11 ,"<br>")
+     document.write(a<b || b<11 ,"<br>")
+        document.write(!(true))
+Output:
+false
+false
+false
+false
+let a=105
+     let b=105
+     document.write(a==b , "<br>")
+     document.write(a===b , "<br>")
+     document.write(a<=b , "<br>")
+     document.write(a>=b , "<br>")
+     document.write(a!=b , "<br>")
+     document.write(a!==b , "<br>")
+     
+     document.write(a<b && b<11 ,"<br>")
+     document.write(a<b || b<11 ,"<br>")
+        document.write(!(true))
+
+Output:
+true
+true
+true
+true
+false
+false
+false
+false
+false
+
+Window methods:
+Alert:
+alert("hi chiru")
+console.log(alert)
+document.write(alert)
+
+let name =prompt("Enter Your name?")
+    alert(name)
+
+ let aa=prompt()
+    let bb=prompt()
+    console .log(typeof(aa))
+    document.write(typeof(aa))
+    console.log(aa+bb)
+    document.write(aa+bb)
+
+Output:
+string24
+
+Prompt is used to take input from the user
+
+
+
+   //arithematic operator
+   //let a=10
+   //let b=5
+   //b++
+  // a--
+  // document.write(b ,"<br>")
+   //document.write(a,"<br>")
+  // document.write(a%b,"<br>")
+   //document.write(a/b ,"<br>")
+   //document.write(a*b ,"<br>")
+  // document.write(a**b ,"<br>")
+ 
+  // assignment operator:
+ // //let a=10
+   //let b=5
+   //b-=30
+   //document.write(b)
+   //a+=30
+   //document.write(a,"<br>")
+   //document.write(b ,"<br>")
+   //document.write(a,"<br>")
+   //document.write(a%b,"<br>")
+   //document.write(a/b ,"<br>")
+   //document.write(a*b ,"<br>")
+   //document.write(a**b ,"<br>")
+    
+   //logical operator
+     //let a=105
+    // let b=105
+     //document.write(a==b , "<br>")
+    //document.write(a===b , "<br>")
+     //document.write(a<=b , "<br>")
+     //document.write(a>=b , "<br>")
+     //document.write(a!=b , "<br>")
+     //document.write(a!==b , "<br>")
+     
+     //document.write(a<b && b<11 ,"<br>")
+     //document.write(a<b || b<11 ,"<br>")
+    //document.write(!(true))
+   // let name =prompt("Enter Your name?")
+    //alert(name)
+
+    //let t=40
+    //let r=(t>40) ? "Ac-off":"Ac-on"
+    //document.write(r)
+
+    let aa=prompt()
+    let bb=prompt()
+    console .log(typeof(aa))
+    document.write(typeof(aa))
+    console.log(aa+bb)
+    document.write(aa+bb)
+
+
+
+
+
